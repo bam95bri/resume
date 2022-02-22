@@ -1,0 +1,115 @@
+body {
+    background-image: url("coffee2.jpeg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+img {
+    opacity: 0.5;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.entire {
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.title {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.background {
+    font-size: 40px;
+}
+
+.description {
+    width: 600px;
+}
+
+.experience {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.resume {
+    margin: 20px 20px;
+}
+
+.oracle {
+    font-size: 26px;
+    width: 82px;
+}
+
+.apple {
+    font-size: 26px;
+    width: 75px;
+    margin-top: 30px;
+}
+
+.nike {
+    font-size: 26px;
+    width: 57px;
+    margin-top: 30px;
+}
+
+.skills {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.courses {
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.oracle-list {
+    width: 400px;
+    flex-wrap: wrap;
+
+}
+
+.apple-list {
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.nike-list {
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.skills-list {
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+.classes {
+    width: 400px;
+    padding-left: 60px;
+}
